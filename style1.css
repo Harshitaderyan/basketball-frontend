@@ -1,0 +1,201 @@
+body{
+margin: auto;
+background-color: rgb(152, 196, 196);
+}
+.container{
+
+    height: auto;
+    margin: auto;
+
+}
+.logo{
+float: left;
+padding: 15px;
+}
+
+
+.img{
+width: 30%;
+height: 50%;
+
+
+}
+.mainmenu{
+background-color: rgb(46, 159, 159);
+    
+    padding: 0.1%;;
+}
+
+.mainmenu > ul{
+margin: 10px;
+padding: 35px;
+list-style-type: none;
+}
+.mainmenu > ul > li{
+display: inline-block;
+float: right;
+
+
+}
+.mainmenu > ul > li > a {
+
+display: block;
+padding: 10px;
+font-size: small;
+
+font-family: sans-serif;
+
+text-decoration: none;
+color: white;
+padding: 8px 25px;
+transition: all .5s ease;
+    
+
+}
+.mainmenu > ul > li > a:hover{
+
+background-color: white;
+color: black;
+box-shadow: 0 0 10px white;
+}
+.text  h1{
+/* background-color: red; */
+color: rgb(244, 249, 250);
+font-weight: 800%;
+font-family: cursive;
+text-align: center;
+}
+
+.text > h2{
+color: rgb(6, 6, 6);
+font-weight: 800%;
+font-family: century;
+font-size: 200%;
+text-align: center;
+}
+
+.text p{
+text-align: center;
+font-size: x-large;
+} 
+.text button{
+margin-left: 45%;
+margin-bottom: 2%;
+
+width: 20%;
+padding: 1%;
+
+}
+.text button:hover{
+background-color: rgb(243, 166, 77);
+color: black;
+
+box-shadow: 0 0 10px white;
+}
+
+
+
+
+
+
+
+.main-menu > ul > li > a {
+
+display: block;
+padding: 9px;
+font-size: small;
+font-size: 1.1rem;
+
+font-family: sans-serif;
+
+text-decoration: none;
+color: white;
+padding: 8px 20px;
+transition: all .5s ease;
+
+
+}
+.main-menu > ul > li > a:hover{
+
+background-color: white;
+color: black;
+box-shadow: 0 0 10px white;
+}
+
+.pik{
+
+background-color: rgb(152, 196, 196);
+}
+.texture > h1{
+color: rgb(10, 10, 10);
+font-weight: 400%;
+font-family: cursive;
+font-size: 600%;
+text-align: center;}
+
+
+
+
+.texture > p{
+
+color: rgb(2, 32, 37);
+font-size: 150%;
+font-family: century;
+
+text-align: center;
+margin: 5%;
+}
+.texture > a >button{
+
+
+font-size: large;
+font-family: sans-serif;
+padding: 8px 25px;
+color: rgb(111, 31, 31);
+transition: all .5s ease;
+margin-left: 45%;
+padding: 1%;
+margin-bottom: 10%;
+
+}
+.texture > a > button:hover{
+
+background-color: rgb(243, 166, 77);
+color: black;
+
+box-shadow: 0 0 10px white
+}
+.copyrightText{
+padding: 8px 40px;
+border-top: 1px solid rgba(0,0,0,0.1);
+text-align: center;
+}
+.copyrightText p{
+color: #ff0157;
+font-weight: 500;
+text-decoration: none;
+font-size: medium;
+}
+.menuToggle{
+    position:relative;
+    width: 40px;
+    height: 40px;
+    background : url(download.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+
+}
+ 
+ .menuToggle.active
+ {
+    background: url(close1.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+  header.sticky .menuToggle{
+    filter: invert(1);
+  }
+

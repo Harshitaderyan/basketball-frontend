@@ -1,0 +1,100 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Complete Responsive Website Design</title>
+            <link rel="stylesheet" href = "style.css">
+
+        </head>
+        <body>
+            <header class = "sticky">
+               
+                <a href = "#" class ="logo">AlleyHoop<span>.</span></a>
+                <div class = "menuToggle" onclick="toggleMenu();"></div>
+                <ul class = "navigation">
+                   
+                    <li><a href ="register.html"onclick="toggleMenu();">Register</a></li>
+                    <li><a href ="#About us"onclick="toggleMenu();">About us</a></li>
+                    <li><a href ="login.html"onclick="toggleMenu();">Login</a></li>
+                    <li><a href ="ruplayer.html"onclick="toggleMenu();">Are u a player</a></li>
+                    
+                </ul>
+            </header>
+            <section class = "banner" id = "banner">
+                <div class = "content">
+                    <h2>AlleyHoop</h2>
+                <p>Search now and book your court and much more instantly.</p>
+
+                  
+                </div>
+            </section>
+                
+            <section class ="About" id = "About">
+                <div class = "row">
+                    <div class = "col50">
+                        <h2 class ="titleText"><span>A</span><b>bout Us</b></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloribus suscipit ducimus nisi hic, 
+                            quas temporibus ex exercitationem amet velit quaerat quis dolores
+                            ipsum nemo dolore, porro vero provident molestias.<br><br>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga omnis et odit 
+                            porro esse quibusdam ut magnam, animi ipsa qui quasi earum cumque totam,
+                            velit architecto nihil expedita inventore quidem?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolore earum ut tempore architecto quos molestias quibusdam obcaecati porro excepturi
+                            perspiciatis labore fugiat amet, deserunt veniam reprehenderit accusantium officiis, odio praesentium.</p>
+                    </div>
+            
+                
+                <div class = "col50">
+                    <div class ="imgBx">
+                        <img src ="assets/background img 1.jpg" >
+                    </div>
+                </div>
+            </div>
+
+            </section>
+
+           
+            
+
+   
+            
+            
+
+
+  
+  
+   
+
+  </section>
+     
+  
+        <div class ="CopyrightText">
+            <p>Copyright 2020 <a href="#">Onine Tutorials</a>. All right Reserved</p>
+        </div>
+   
+
+
+
+        
+            <script type = "text/javascript"> 
+            window.addEventListener('scroll',function(){
+                const header= document.querySelector('header');
+                header.classList.toggle("sticky",window.scrollY >0);
+            });
+
+  function toggleMenu(){
+       const menuToggle = document.querySelector('.menuToggle');
+       const navigation =  document.querySelector('.navigation');
+                menuToggle.classList.toggle('active');
+               navigation.classList.toggle('active');
+
+            }
+
+            </script>
+        </body>
+
+        </html>
+            
